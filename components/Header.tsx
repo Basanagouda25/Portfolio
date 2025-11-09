@@ -25,7 +25,7 @@ const Header: React.FC = () => {
               <span className="text-accent font-mono">{`0${index + 1}.`}</span> {link.name}
             </a>
           ))}
-           <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="bg-white/5 border border-white/20 backdrop-blur-sm text-accent font-mono px-4 py-2 rounded-lg hover:bg-white/10 transition-colors duration-300">
+           <a href="https://drive.google.com/file/d/1gOi9lA9ZvbemeBzNf9V4yDTkc6bwweAr/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="bg-white/5 border border-white/20 backdrop-blur-sm text-accent font-mono px-4 py-2 rounded-lg hover:bg-white/10 transition-colors duration-300">
             Resume
           </a>
         </div>
@@ -45,7 +45,7 @@ const Header: React.FC = () => {
                 <span className="text-accent font-mono">{`0${index + 1}.`}</span> {link.name}
               </a>
             ))}
-             <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)} className="text-2xl bg-white/5 border border-white/20 backdrop-blur-sm text-accent font-mono px-6 py-3 rounded-lg hover:bg-white/10 transition-colors duration-300">
+             <a href="https://drive.google.com/file/d/1gOi9lA9ZvbemeBzNf9V4yDTkc6bwweAr/view?usp=drive_link" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)} className="text-2xl bg-white/5 border border-white/20 backdrop-blur-sm text-accent font-mono px-6 py-3 rounded-lg hover:bg-white/10 transition-colors duration-300">
               Resume
             </a>
           </div>
